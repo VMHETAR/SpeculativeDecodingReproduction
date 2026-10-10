@@ -1,0 +1,11 @@
+target_model: gpt2
+draft_model: distilgpt2
+device: cpu
+dtype: float32
+temperature: 0.0
+max_new_tokens: 40
+gammas: [1, 2, 4, 8]
+n_trials: 3
+n_warmup: 1
+seed: 1234
+output_dir: results/raw
