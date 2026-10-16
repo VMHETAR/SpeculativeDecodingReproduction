@@ -67,3 +67,20 @@ Detailed plots: [speedup vs gamma](figures/1_speedup_vs_gamma.png) ·
 - Full-context forward passes (no KV-cache); verification still 1 target
   forward per iteration, same as paper's cost model.
 - Greedy (T=0) evaluation only; sampling path implemented + unit-tested.
+
+
+## Reference
+
+This project is an independent empirical reproduction of the speculative
+decoding method described in:
+
+Yaniv Leviathan, Matan Kalman, and Yossi Matias.
+*Fast Inference from Transformers via Speculative Decoding.*
+Proceedings of the 40th International Conference on Machine Learning (ICML), 2023.
+
+- [Paper (PMLR)](https://proceedings.mlr.press/v202/leviathan23a.html)
+- [arXiv preprint](https://arxiv.org/abs/2211.17192)
+
+This project independently implements the method and investigates how
+draft length affects empirical speedup and the accuracy of theoretical
+predictions under CPU-only execution.
