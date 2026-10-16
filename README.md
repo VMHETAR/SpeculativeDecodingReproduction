@@ -1,5 +1,7 @@
 # Empirical reproduction of speculative decoding (Leviathan et al. 2023)
 
+[![DOI](https://zenodo.org/badge/1413376186.svg)](https://doi.org/10.5281/zenodo.23413380)
+
 Research question: **how does draft length gamma affect measured speedup, and
 how well does the paper's theory (Thm 3.8) predict it across prompt types?**
 
