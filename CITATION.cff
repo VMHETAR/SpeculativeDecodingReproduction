@@ -19,3 +19,16 @@ abstract: >-
   An independent empirical reproduction of speculative decoding,
   investigating how draft length affects measured speedup and
   comparing experimental results with theoretical predictions.
+references:
+  - type: article
+    authors:
+      - family-names: "Leviathan"
+        given-names: "Yaniv"
+      - family-names: "Kalman"
+        given-names: "Matan"
+      - family-names: "Matias"
+        given-names: "Yossi"
+    title: "Fast Inference from Transformers via Speculative Decoding"
+    year: 2023
+    doi: "10.48550/arXiv.2211.17192"
+    url: "https://proceedings.mlr.press/v202/leviathan23a.html"
